@@ -9,7 +9,7 @@ export const heroContent = {
     primaryButtonLink: "/services",
     secondaryButtonText: "Explore Our Work",
     secondaryButtonLink: "/work",
-    videoUrl: "/demo.mp4"
+    videoUrl: "https://res.cloudinary.com/dppcmxdhi/video/upload/v1780838707/demo_qmibcy.mp4"
 };
 
 export const sliderContent = {
