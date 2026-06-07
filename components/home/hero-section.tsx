@@ -7,7 +7,7 @@ export default function HeroSection() {
         <section className="relative h-[100vh] pt-8  select-none w-full overflow-hidden flex items-center px-10 md:px-16 justify-center md:justify-start bg-black">
             <div className="absolute inset-0 z-0">
                 <video autoPlay loop muted playsInline className="w-full h-full object-cover" aria-hidden="true">
-                    <source src={heroContent.videoUrl} type="video/mp4" />
+                    <source src="/demo.mp4" type="video/mp4" />
                 </video>
             </div>
             <div className="absolute inset-0 bg-black/40 z-10 pointer-events-none"></div>
