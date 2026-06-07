@@ -1,6 +1,8 @@
 
-export default function SlugPage(){
-    return(
-        <div></div>
+export default function SlugPage() {
+    return (
+        <div>
+            Hello Slug
+        </div>
     )
 }
