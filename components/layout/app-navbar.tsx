@@ -95,7 +95,7 @@ export default function AppNavbar() {
                                 key={link.href}
                                 href={link.href}
                                 onClick={() => setIsMobileMenuOpen(false)}
-                                className="text-3xl text-white font-medium hover:text-blue-500 transition-colors">
+                                className="text-3xl font-clash text-white hover:text-blue-500 transition-colors">
                                 {link.label}
                             </Link>
                         ))}
