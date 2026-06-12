@@ -51,7 +51,7 @@ export default function TextSlider() {
             <motion.div className="flex whitespace-nowrap" style={{ x }}>
                 {[...Array(8)].map((_, i) => (
                     <span key={i}
-                        className="text-6xl font-semibold text-white tracking-tight pr-4">
+                        className="text-5xl font-semibold text-white tracking-tight pr-4">
                         {sliderText}
                     </span>
                 ))}

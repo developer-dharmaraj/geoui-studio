@@ -206,10 +206,10 @@ export const teamMembers = [
     },
     {
         id: 2,
-        name: "Pawan Chouhan",
-        role: "Co-Founder • Full Stack Developer",
+        name: "Tanishka Chauhan",
+        role: "Business Executive",
         hashtag: "#CodeToScale",
-        image: "/harikrishna.jpg",
+        image: "/TanishkaChauhan.png",
         phone: "919081751109",
         whatsapp: "919081751109",
         linkedin: "https://linkedin.com/in/your-link",
@@ -303,7 +303,6 @@ export const whyGoisStudioContent = {
     },
 };
 
-// Types definitions
 export interface FAQTitlePart {
     text: string;
     className: string;
@@ -432,7 +431,6 @@ export const testimonialsContent = {
     ] as ClientReview[],
 };
 
-// Types definitions
 export interface FormBudgetOption {
     id: string;
     label: string;
@@ -442,7 +440,7 @@ export interface ContactSectionContent {
     header: {
         badgeText: string;
         boldBadgeWord: string;
-        title: string; // Let’s Build Something Meaningful Together.
+        title: string;
         description: string;
         features: string[];
     };
@@ -468,8 +466,8 @@ export interface ContactSectionContent {
 export const contactSectionContent: ContactSectionContent = {
     header: {
         badgeText: "Start your digital journey with ",
-        boldBadgeWord: "GoisStudio™",
-        title: "Let’s Build Something \n Meaningful Together.", // \n handles break tags neatly
+        boldBadgeWord: "GeoUIStudio",
+        title: "Let’s Build Something \n Meaningful Together.",
         description: "We design and develop high-performance websites, mobile apps, and brand identities from Ahmedabad.",
         features: [
             "Fast response & transparent process",
@@ -500,8 +498,6 @@ export const contactSectionContent: ContactSectionContent = {
     }
 };
 
-// Types definitions
-// Types definitions
 export interface FooterNavLink {
     label: string;
     href: string;

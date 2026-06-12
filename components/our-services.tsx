@@ -2,7 +2,7 @@
 import { useRef } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { ourServiceContent } from "@/data/homepageData";
-import ServiceCard from "../ui/service-card";
+import ServiceCard from "./ui/service-card";
 
 export default function OurServices() {
     const { header, services } = ourServiceContent;

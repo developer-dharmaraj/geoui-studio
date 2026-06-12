@@ -1,12 +1,12 @@
 import ContactSection from "@/components/home/contact-section";
 import FaqSection from "@/components/home/faq-section";
 import HeroSection from "@/components/home/hero-section";
-import OurServices from "@/components/home/our-services";
+import OurServices from "@/components/our-services";
 import TeamSection from "@/components/home/our-team";
 import OurWork from "@/components/home/our-work";
 import Testimonials from "@/components/home/Testimonials";
 import TextSlider from "@/components/home/text-slider";
-import WhyGeoUIStudio from "@/components/home/why-geouistudio";
+import WhyGoisStudio from "@/components/why-geouistudio";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <OurServices />
       <OurWork />
       <TeamSection />
-      <WhyGeoUIStudio />
+      <WhyGoisStudio />
       <FaqSection />
       <Testimonials />
       <ContactSection />
