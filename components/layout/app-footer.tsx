@@ -26,7 +26,7 @@ export default function Footer() {
 
     return (
         <footer className="w-full bg-black text-white pt-10 overflow-hidden border-t border-white/10" role="contentinfo">
-            <div className="relative w-full text-center group cursor-default hidden md:block mb-[-2vw] select-none overflow-visible z-10">
+            <div className="relative w-full text-center group cursor-default hidden md:block mb-[-1vw] select-none overflow-visible z-10">
                 <div className="relative inline-block">
                     <h1 className="text-[15vw] font-bold leading-none tracking-tighter opacity-30 transition-opacity duration-500 ease-in-out group-hover:opacity-10"
                         style={{ color: 'transparent', WebkitTextStroke: '1.5px rgba(255,255,255,0.6)' }} >
